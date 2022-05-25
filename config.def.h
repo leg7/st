@@ -6,6 +6,16 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Noto Sans CJK TC:pixelsize=14:antialias=true:autohint=true",
+	"Noto Sans CJK SC:pixelsize=14:antialias=true:autohint=true",
+	"Noto Sans CJK SC:pixelsize=14:antialias=true:autohint=true",
+	"Noto Sans CJK JP:pixelsize=14:antialias=true:autohint=true",
+	"Noto Sans CJK HK:pixelsize=14:antialias=true:autohint=true",
+	"Noto Sans CJK HR:pixelsize=14:antialias=true:autohint=true",
+};
+
 static int borderpx = 4;
 
 /*
